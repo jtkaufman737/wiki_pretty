@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User
 from rest_framework import viewsets
-from wiki_pretty.scraper.serializers import * 
+from wiki_pretty.scraper.serializers import *
+from wiki_pretty.scraper.models import * 
 # Create your views here.
 
 class UserViewSet(viewsets.ModelViewSet):
